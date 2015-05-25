@@ -1,0 +1,279 @@
+body {
+	font-family:Verdana;
+	margin:0; text-align:center}
+
+#container {margin:0 auto; width:960px; height:320px;}
+#header { height:260px; background:#FFF; margin-bottom:5px;}
+#menu {
+	height:37px;
+	background:#FFF;
+	margin-bottom:5px;
+	font-size: 1px;
+}
+#mainContent {
+	height:29px;
+	margin-bottom:5px;
+	color: #FFF;
+	width: 80px;
+	border: 1px solid #F00;
+}
+#sidebar { float:left; width:900px; height:2000px; background:#9ff;}
+#content { float:right; width:440px; height:500px; background:#cff;}/*因为是固定宽度，采用左右浮动方法可有效避免ie 3像素bug*/
+#footer { height:60px; background:#6cf;}.ziti01 {
+	font-size: 12px;
+}
+.ziti02 {
+	text-align: center;
+}
+#container #header table tr td table {
+	font-family: "楷体";
+	color: #F00;
+	font-weight: bold;
+	font-size: 12px;
+}
+#container #header table tr td table tr td p {
+	color: #000;
+}
+#container #header table tr td table tr td marquee {
+}
+.daohang {
+	font-family: "黑体";
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: bolder;
+	color: #03C;
+	background-color: #FC0;
+	text-align: center;
+	height: 25px;
+	width: 107px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#container #mainContent #sidebar table tr td {
+	text-align: center;
+	font-family: "方正粗倩简体";
+	font-size: 24px;
+	color: #000;
+	background-color: #F00;
+	height: 30px;
+	width: 80px;
+	border: 1px solid #F00;
+}
+.caidanlan01 {
+	font-family: "方正黄草简体";
+	font-size: 24px;
+	font-weight: bolder;
+	color: #009;
+	text-align: center;
+	height: 30px;
+	width: 200px;
+	border: 1px solid #F00;
+}
+#biaoge {
+	background-color: #F00;
+}
+#CollapsiblePanel1 .CollapsiblePanelContent p {
+	color: #F90;
+	font-size: 14px;
+	font-family: "黑体";
+}
+.lanmu {
+	font-family: "楷体";
+	font-size: 36px;
+	text-align: center;
+	font-weight: bold;
+	color: #F90;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.timu01 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #000;
+	text-align: left;
+}
+.caidanwenzi01 p {
+	text-align: center;
+}
+#apDiv8 table {
+	text-align: center;
+}
+.timu01 tr td .timu01 {
+	text-align: left;
+}
+body table tr td table {
+	border: 5px solid #E00;
+}
+.lanmudaohang {
+	border-right-width: 5px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-color: #FC0;
+}
+.wubiankuang {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.timu01 {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.timu2 {
+	font-family: "黑体";
+	font-size: 16px;
+	color: #00D;
+}
+ .daohang a:link {
+	color: #00C;
+	text-decoration: none;
+}
+.daohang a:visited {
+	color: #00F;
+	text-decoration: none;
+}
+.daohang a:hover {
+	color: #FFF;
+	background-color: #9FC;
+	padding: 5px;
+}
+a.caidanziti02:link {
+	color: #F60;
+	text-decoration: none;
+}
+a.caidanziti02:visited {
+	color: #F60;
+	text-decoration: none;
+}
+a.caidanziti02:hover {
+	background-color: #6FF;
+	padding: 5px;
+}
+
+a:link {
+	text-decoration: none;
+}
+.zhengwen01 {
+	font-size: 18px;
+	color: #000;
+	text-decoration: none;
+	font-family: "楷体";
+	text-align: center;
+}
+.zhengwen02 {
+	font-size: 12px;
+	color: #000;
+	font-family: "宋体";
+	line-height: 30px;
+	text-align: left;
+}
+.zhengwenxiaobiaoti {
+	font-family: "黑体";
+	font-size: 16px;
+	font-weight: bold;
+	color: #F00;
+}
+
+.banquan {
+	font-family: "楷体";
+	font-size: 9px;
+	color: #000;
+}
+.shouyecaidanbiaoti {
+	color: #F00;
+	background-color: #FFC;
+	padding: 5px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	clear: left;
+	float: left;
+	text-align: center;
+	background-repeat: repeat;
+	font-family: "楷体";
+	font-size: 18px;
+	font-weight: bolder;
+	filter: Glow(Color=#00FF00, Strength=3);
+	border-radius:10px;
+	height: 40px;
+	border-right-width: thin;
+	border-right-color: #F00;
+}
+.shouyexiaofangkuaikuangdu01 {
+	width: 435px;
+	background-color: #FFF;
+	border: thin solid #0CF;
+	position: static;
+}
+.shouyexiaofangkuaikuangdu02 {
+	background-color: #FFF;
+	border: thin solid #0CF;
+	width: 520px;
+}
+.shouyexiofangkuaikuangdu03 {
+	background-color: #FFF;
+	width: 320px;
+	border: thin solid #0CF;
+}
+
+
+.shouyecaidanlanbeijingCopy {
+	background-color: #CFF;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-radius:10px;
+	position: relative;
+	height: 40px;
+	width: 350px;
+}
+.shouyecaidanlanbeijing01 {
+	background-color: #CFF;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-radius:10px;
+	position: relative;
+	height: 40px;
+	width: 430px;
+}
+
+.baisebeijing {
+	background-color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.huanyingci {
+	font-family: "楷体";
+	font-size: 12px;
+	color: #FFF;
+}
+.sheyingzhushi {
+	font-family: "楷体";
+	font-size: 10px;
+	font-style: italic;
+	color: #63F;
+}

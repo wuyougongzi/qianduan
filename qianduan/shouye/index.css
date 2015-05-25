@@ -1,0 +1,34 @@
+body {
+	font-family:Verdana;
+	margin:0; text-align:center}
+
+#container {margin:0 auto; width:960px; height:150px;}
+#header { height:100px; background:#FFF; margin-bottom:5px; background:url(%E5%AD%A6%E9%99%A2%E6%80%9D%E6%94%BF%E7%BD%91BANNER.jpg)}
+#menu {
+	height:37px;
+	background:#FFF;
+	margin-bottom:5px;
+	font-size: 1px;
+}
+#mainContent {
+	height:29px;
+	margin-bottom:5px;
+	color: #FFF;
+	width: 80px;
+	border: 1px solid #F00;
+}
+#sidebar { float:left; width:900px; height:2000px; background:#9ff;}
+#content { float:right; width:440px; height:500px; background:#cff;}/*因为是固定宽度，采用左右浮动方法可有效避免ie 3像素bug*/
+#footer { height:60px; background:#6cf;}.ziti01 {
+	font-size: 12px;
+}
+.ziti02 {
+	text-align: center;
+}
+#container #header table tr td table {
+	font-family: "楷体";
+	color: #F00;
+	font-weight: bold;
+	font-size: 12px;
+}
+#container #header table tr td table tr td p
